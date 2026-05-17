@@ -109,3 +109,33 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.badge.income {
+  background: #dcfce7;
+  color: #166534;
+}
+.badge.expense {
+  background: #fee2e2;
+  color: #991b1b;
+}
+textarea {
+  padding: 0.5rem;
+  font-family: inherit;
+}
+table th,
+table td {
+  padding: 0.5rem;
+}
+nav button {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

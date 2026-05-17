@@ -41,7 +41,7 @@ export default function Register() {
             setForm({ ...form, name: e.target.value })
           }
         />
-
+        <br/>
         <input
           type="email"
           placeholder="Email"
@@ -50,7 +50,7 @@ export default function Register() {
             setForm({ ...form, email: e.target.value })
           }
         />
-
+        <br/>
         <input
           type="password"
           placeholder="Password"
@@ -59,7 +59,7 @@ export default function Register() {
             setForm({ ...form, password: e.target.value })
           }
         />
-
+        <br/>
         <button type="submit">Register</button>
       </form>
 
